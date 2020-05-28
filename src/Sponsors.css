@@ -1,0 +1,141 @@
+#sponsors {
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.sponsorMessage {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #6EB057;
+    
+}
+
+.sponsorLogoParent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8%;
+}
+
+.sponsorLogoChild {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.GHLogoParent, .ewbLogoParent, .techoLogoParent, .scihubLogoParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+    width: 500px;
+}
+
+@media screen and (max-width: 2660px) {
+    .sponsorMessage {
+        font-size: 25px;
+    }
+    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 2060px) {
+    .sponsorMessage {
+        font-size: 20px;
+    }
+    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    .sponsorMessage {
+        font-size: 20px;
+    }
+    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .sponsorMessage {
+        font-size: 15px;
+    }
+    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .sponsorMessage {
+        font-size: 10px;
+    }
+    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 860px) {    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {    
+    .sponsorMessage {
+        font-size: 8px;
+    }
+    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 568px) {    
+    .sponsorMessage {
+        font-size: 5px;
+    }
+    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild, #scihubLogoChild {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 425px) {        
+    .sponsorMessage {
+        font-size: 5px;
+    }
+    
+    .sponsorLogoChild {
+        display: inline-block;
+    }
+    
+    #GHLogoChild, #ewbLogoChild, #techoLogoChild {
+        width: 150px;
+        padding-bottom: 50px;
+    }
+
+    #scihubLogoChild {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .sponsorMessage {
+        font-size: 4px;
+    }
+}
+
+
+

@@ -1,0 +1,280 @@
+#team {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#teamTitleChild {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    text-align: center;
+    color: #6EB057;
+}
+
+.pictureIconsParent {
+    display: flex;
+    justify-content: center;
+}
+
+.pictureIconsChild {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.marcMirella, .nathanKoo, .lucasMoffitt {
+    width: 100%;
+}
+
+.marcPhotoParent, .nathanPhotoParent, .lucasPhotoParent {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+#marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+    width: 500px;
+    height: 500px;
+    border: solid #DACB7D;
+    border-width: 5px;
+    border-radius: 200%;
+}
+
+.marcNameParentParent, .nathanNameParentParent, .lucasNameParentParent {
+    display: flex;
+    justify-content: center;
+}
+
+.marcNameParent, .nathanNameParent, .lucasNameParent {
+    width: 100%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    background-color: #6EB057;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #DACB7D;
+    border-width: 5px;
+}
+
+#marcNameChild, #nathanNameChild, #lucasNameChild {
+    font-size: 60px;
+    padding-bottom: 2%;
+    font-weight: 600;
+}
+
+#marcTitle, #nathanTitle, #lucasTitle {
+    color:#DACB7D;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 2360px) {
+    /* styling for section title */
+    #teamTitleChild {
+        font-size: 100px;
+    }
+    
+    /* styling for photo size */
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 400px;
+        height: 400px;
+    }
+
+    /* styling for name tags */
+    .marcNameParent, .nathanNameParent, .lucasNameParent {
+        width: 60%;
+    }
+    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 50px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 2360px) {
+    /* styling for photo size */
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* styling for name tags */    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 40px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    /* styling for section title */
+    #teamTitleChild {
+        font-size: 80px;
+    }
+    
+    /* styling for photo size */
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* styling for name tags */    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 30px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    /* styling for section title */
+    #teamTitleChild {
+        font-size: 60px;
+    }
+    
+    /* styling for photo size */
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* styling for name tags */    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 25px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    /* styling for section title */
+    #teamTitleChild {
+        font-size: 50px;
+    }
+    
+    /* styling for photo size */
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* styling for name tags */    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 20px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    /* styling for section title */
+    #teamTitleChild {
+        font-size: 40px;
+    }
+    
+    /* styling for photo size */
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* styling for name tags */    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 15px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* styling for section title */
+    #teamTitleChild {
+        font-size: 30px;
+    }
+    
+    /* styling for photo size */
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* styling for name tags */    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 12px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    /* styling for section title */
+    #teamTitleChild {
+        font-size: 25px;
+    }
+    
+    /* styling for photo size */
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* styling for name tags */    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 10px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* styling for section title */
+    #teamTitleChild {
+        font-size: 20px;
+    }
+    
+    /* styling for photo size */
+    .pictureIconsChild {
+        display: inline-block;
+    }
+    
+    .marcPhotoParent, .nathanPhotoParent, .lucasPhotoParent {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #marcPhotoChild, #nathanPhotoChild, #lucasPhotoChild {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* styling for name tags */    
+    .marcNameParent, .nathanNameParent, .lucasNameParent {
+        width: 40%;
+    }
+    
+    #marcNameChild, #nathanNameChild, #lucasNameChild {
+        font-size: 15px;
+    }
+    
+    #marcTitle, #nathanTitle, #lucasTitle {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,458 @@
+#footer {
+    background-color: #6EB057;
+    padding-top: 3%;
+}
+
+.footerChild {
+    display: flex;
+    justify-content: center;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+/* styling for left side of footer */
+
+.footerLeft {
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.footerLogoParent {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerLogoChild {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* styling for "Green Bricks" */
+
+.footerLogoActual {
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#bricksLogo1 {
+    color: #6EB057;
+}
+
+#bricksLogo2 {
+    color: #DACB7D;
+}
+
+.footerLogoLineParent {
+    display: flex;
+    justify-content: center;
+}
+
+#footerLogoLineChild {
+    width: 90%;
+    border: 2px solid #6EB057;
+}
+
+/* styling for 'building a greener world' */
+
+.footerSlogan {
+    color: #DACB7D; 
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#footerGreener {
+    color: #6EB057;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* styling for left side of footer */
+
+/* styling for right side of footer */
+
+.footerRight {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+/*styling for the footer toolbar */
+
+.footerToolbar {
+    width: 100%;
+}
+
+#explore {
+    font-size: 40px;
+}
+
+.footerToolbarList {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#footerAbout, #footerProduct, #footerTimeline, #footerTeam {
+    padding-bottom: 10px;
+}
+
+#footerContactChild {
+    text-decoration: none;
+    color: white;
+}
+
+#footerAbout:hover, #footerProduct:hover, #footerTimeline:hover, #footerTeam:hover, #footerContact:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* styling for social media */
+
+.socialMedia {
+    width: 100%;
+}
+
+.followUsParent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#followUsChild {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.mediaiconsParent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.facebookParent {
+    padding-right: 20px;
+}
+
+#facebookChild, #instagramChild {
+    width: 100px;
+    height: auto;
+    fill: white;
+}
+
+#facebookChild:hover, #instagramChild:hover {
+    fill: #f2f2f2; 
+}
+
+/* styling for right side of footer */
+
+/* styling for bottom footer */
+
+.footerLineParent {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#footerLineChild {
+    width: 90%;
+    border-bottom: 2px solid white;
+}
+
+.footerCopyright {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 2660px) {
+    .footerLogoActual {
+        font-size: 30px;
+    }
+    
+    #footerLogoLineChild {
+        border: 1px solid #6EB057;
+    }
+
+    .footerSlogan {
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 2360px) {
+    /* styling logo */
+    .footerLogoChild {
+        height: 150px;
+    }
+    
+    .footerLogoActual {
+        font-size: 25px;
+    }
+
+    .footerSlogan {
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    /* styling explore toolbar */
+    #explore {
+        font-size: 35px;
+    }
+
+    .footerToolbarList {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    /* styling follow us */
+    #followUsChild {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    #facebookChild, #instagramChild {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 2060px) {
+    /* styling logo */
+    .footerLogoChild {
+        height: 120px;
+    }
+
+    .footerLogoActual {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    
+    .footerSlogan {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    /* styling explore toolbar */
+    #explore {
+        font-size: 30px;
+    }
+
+    .footerToolbarList {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    /* styling follow us */
+    #followUsChild {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    #facebookChild, #instagramChild {
+        width: 60px;
+    }
+
+    /* styling for footer bottom */
+    #footerLineChild {
+        border-bottom: 2px solid white;
+    }
+    
+    .footerCopyright {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    .footerLogoActual {
+        font-size: 20px;
+    }
+
+    .footerSlogan {
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    #footerGreener {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+    /* styling logo */
+    .footerLogoChild {
+        height: 80px;
+    }
+    
+    .footerLogoActual {
+        font-size: 15px;
+    }
+
+    .footerSlogan {
+        padding: 10px;
+        font-size: 8px;
+    }
+
+    /* styling explore toolbar */
+    #explore {
+        font-size: 20px;
+    }
+
+    .footerToolbarList {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    /* styling follow us */
+    #followUsChild {
+        font-size: 20px;
+    }
+
+    .facebookParent {
+        padding-right: 10px;
+    }
+
+    #facebookChild, #instagramChild {
+        width: 40px;
+    }
+
+    /* styling for footer bottom */    
+    .footerCopyright {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    /* styling logo */
+    .footerLogoChild {
+        height: 60px;
+    }
+
+    .footerLogoActual {
+        font-size: 15px;
+    }
+
+    .footerSlogan {
+        padding: 10px;
+        font-size: 6px;
+    }
+
+    #footerGreener {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    /* styling logo */
+    .footerLogoChild {
+        height: 60px;
+    }
+
+    .footerLogoActual {
+        font-size: 15px;
+    }
+
+    .footerSlogan {
+        padding: 10px;
+        font-size: 6px;
+    }
+
+    #footerGreener {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    /* styling explore toolbar */
+    #explore {
+        font-size: 15px;
+    }
+
+    .footerToolbarList {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    #footerAbout, #footerProduct, #footerTimeline, #footerTeam {
+        padding-bottom: 5px;
+    }
+
+    /* styling follow us */
+    #followUsChild {
+        font-size: 15px;
+    }
+
+    .facebookParent {
+        padding-right: 10px;
+    }
+
+    #facebookChild, #instagramChild {
+        width: 30px;
+    }
+
+    /* styling for footer bottom */    
+    .footerCopyright {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footerLeft {
+        display: none;
+    }
+
+    .footerRight{ 
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    /* styling explore toolbar */
+    #explore {
+        font-size: 12px;
+    }
+
+    .footerToolbarList {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    /* styling follow us */
+    #followUsChild {
+        font-size: 12px;
+    }
+
+    .facebookParent {
+        padding-right: 10px;
+    }
+
+    #facebookChild, #instagramChild {
+        width: 20px;
+    }
+
+    /* styling for footer bottom */    
+    .footerCopyright {
+        font-size: 8px;
+    }
+}

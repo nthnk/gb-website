@@ -1,0 +1,126 @@
+#Toolbar {
+    background-color: #6EB057;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoHome {
+    font-family: "Raleway", sans-serif;
+    width: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#logo {
+    font-size: 40px;
+    text-decoration: none;
+    padding-left: 2%;
+    color: white;
+    font-weight: 600;
+}
+
+/* styling for toolbar items on right side */
+
+.toolbarItems {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#aboutTB, #productTB, #timelineTB, #teamTB, #contactTB {
+    width: 100%;
+}
+
+#aboutLink, #productLink, #timelineLink, #teamLink, #email {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+/* hover effect for right toolbar items */
+
+#aboutLink:hover {
+    background-color: white;
+    color: #6EB057;
+}
+
+#productLink:hover {
+    background-color: white;
+    color: #6EB057;
+}
+
+#timelineLink:hover {
+    background-color: white;
+    color: #6EB057;
+}
+
+#teamLink:hover {
+    background-color: white;
+    color: #6EB057;
+}
+
+#email:hover {
+    background-color: white;
+    color: #6EB057;
+}
+
+@media screen and (max-width: 2360px) {
+    #logo, #aboutLink, #productLink, #timelineLink, #teamLink, #email {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    #logo, #aboutLink, #productLink, #timelineLink, #teamLink, #email {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    #logo, #aboutLink, #productLink, #timelineLink, #teamLink, #email {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .logoHome {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    #logo, #aboutLink, #productLink, #timelineLink, #teamLink, #email {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .logoHome {
+        display: none;
+    }
+    
+    .toolbarItems {
+        width: 100%;
+    }
+
+    #logo, #aboutLink, #productLink, #timelineLink, #teamLink, #email {
+        font-size: 10px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #logo, #aboutLink, #productLink, #timelineLink, #teamLink, #email {
+        font-size: 10px;
+        height: 25px;
+    }
+}

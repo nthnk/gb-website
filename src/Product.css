@@ -1,0 +1,238 @@
+#product {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.productTitle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6%;
+}
+
+#productTitleDesc {
+    font-family: "Raleway", sans-serif;
+    color: #6EB057;
+    font-size: 120px;
+    font-weight: 600;
+}
+
+/* styling for the product icons */
+
+.productIconsParent {
+    display: flex;
+    justify-content: center;
+}
+
+.productIcons {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.brickIcon, .screwIcon, .roofIcon {
+    width: 100%;
+}
+
+.brickImageParent, .screwImageParent, .roofImageParent {
+    display: flex;
+    justify-content: center;
+}
+
+.brickImage, .screwImage, .roofImage {
+    background-color: #6EB057;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: solid #DACB7D;
+    border-radius: 550px;
+    border-width: 10px;
+}
+
+#brick, #screw, #roof {
+    height: auto;
+    width: 70%;
+    fill: #DACB7D;
+}
+
+/* styling for the product icon names */
+
+#brickTitle, #screwTitle, #roofTitle {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #6EB057;
+    font-weight: 600;
+    font-size: 80px;
+    padding-top: 5%;
+}
+
+/*styling for last line of product section */
+
+#productClose {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 2360px) {
+    #productTitleDesc {
+        font-size: 100px;
+    }
+    
+    .brickImage, .screwImage, .roofImage {
+        width: 400px;
+        height: 400px;
+    }
+
+    #brickTitle, #screwTitle, #roofTitle {
+        font-size: 60px;
+    }
+
+    #productClose {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    #productTitleDesc {
+        font-size: 80px;
+    }
+    
+    .brickImage, .screwImage, .roofImage {
+        width: 300px;
+        height: 300px;
+    }
+
+    #brickTitle, #screwTitle, #roofTitle {
+        font-size: 40px;
+    }
+
+    #productClose {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    #productTitleDesc {
+        font-size: 60px;
+    }
+    
+    .brickImage, .screwImage, .roofImage {
+        width: 250px;
+        height: 250px;
+    }
+
+    #brickTitle, #screwTitle, #roofTitle {
+        font-size: 30px;
+    }
+
+    #productClose {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    #productTitleDesc {
+        font-size: 50px;
+    }
+    
+    .brickImage, .screwImage, .roofImage {
+        width: 200px;
+        height: 200px;
+    }
+
+    #brickTitle, #screwTitle, #roofTitle {
+        font-size: 25px;
+    }
+
+    #productClose {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #productTitleDesc {
+        font-size: 40px;
+    }
+    
+    .brickImage, .screwImage, .roofImage {
+        width: 150px;
+        height: 150px;
+    }
+
+    #brickTitle, #screwTitle, #roofTitle {
+        font-size: 25px;
+    }
+
+    #productClose {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #productTitleDesc {
+        font-size: 30px;
+    }
+    
+    .brickImage, .screwImage, .roofImage {
+        width: 100px;
+        height: 100px;
+    }
+
+    #brickTitle, #screwTitle, #roofTitle {
+        font-size: 20px;
+    }
+
+    #productClose {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    #productTitleDesc {
+        font-size: 25px;
+    }
+    
+    .brickImage, .screwImage, .roofImage {
+        width: 70px;
+        height: 70px;
+        border-width: 3px;
+    }
+
+    #brickTitle, #screwTitle, #roofTitle {
+        font-size: 15px;
+    }
+
+    #productClose {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #productTitleDesc {
+        font-size: 25px;
+    }
+    
+    .productIcons {
+        display: inline-block;
+    }
+
+    .brickImage, .screwImage, .roofImage {
+        width: 100px;
+        height: 100px;
+        border-width: 3px;
+    }
+
+    #brickTitle, #screwTitle, #roofTitle {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    #productClose {
+        font-size: 10px;
+    }
+}

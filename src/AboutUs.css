@@ -1,0 +1,358 @@
+#AboutUs {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 700;
+}
+
+/* styling for the titlePage plastic problem */
+
+.plasticProblem {
+    background-image: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, 0.7)), url("AboutUs/garbageShore.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding-top: 18%;
+    padding-bottom: 20%;
+}
+
+.Fact1 {
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    color: #6EB057;
+    padding-bottom: 5%;
+}
+
+.Fact1Desc {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #6EB057;
+    text-align: center;
+    width: 100%;
+}
+
+#plasticProblemDesc {
+    width: 80%;
+}
+
+/* styling for the titlePage housing problem */
+
+.housingProblem {
+    background-image: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, 0.7)), url("AboutUs/poverty.jpg");
+    background-size: 100%;
+    width: 50%;
+    padding-top: 18%;
+    padding-bottom: 20%;
+}
+
+.Fact2 {
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    color: #6EB057;
+    padding-bottom: 5%;
+}
+
+#billion {
+    padding-left: 3%;
+}
+
+.Fact2Desc {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #6EB057;
+    text-align: center;
+    width: 100%;
+}
+
+#housingProblemDesc {
+    width: 80%;
+}
+
+/* styling for the AboutUs slogan and description */
+
+#aboutUsDesc {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    color: #DACB7D;
+    font-size: 50px;
+    padding-bottom: 3%;
+}
+
+#slogan1, #slogan2 {
+    font-weight: 600;
+}
+
+#greener {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #6EB057;
+    font-weight: 600;
+}
+
+.gbDesc{
+    display: flex;
+    justify-content: center;
+}
+
+#gbDescParagraph {
+    width: 80%;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #6EB057;
+}
+
+@media screen and (max-width: 2660px) {
+    .housingProblem {
+        padding-bottom: 0%;
+    }
+}
+
+@media screen and (max-width: 2360px) {
+    .plasticProblem {
+        padding-bottom: 400px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 2060px) {
+    .plasticProblem {
+        padding-bottom: 300px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 35px;
+    }
+
+    .slogan {
+        font-size: 35px;
+    }
+
+    #gbDescParagraph {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    .plasticProblem {
+        padding-bottom: 250px;
+    }
+
+    .Fact1, .Fact2 {
+        font-size: 120px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .plasticProblem {
+        padding-bottom: 200px;
+    }
+
+    .Fact1, .Fact2 {
+        font-size: 100px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 25px;
+    }
+
+    .slogan {
+        font-size: 25px;
+    }
+
+    #gbDescParagraph {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .plasticProblem {
+        padding-bottom: 150px;
+    }
+
+    .Fact1, .Fact2 {
+        font-size: 80px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 20px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    #greener {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+
+    #gbDescParagraph {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .plasticProblem {
+        padding-bottom: 130px;
+    }
+
+    .Fact1, .Fact2 {
+        font-size: 60px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 15px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    #greener {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #gbDescParagraph {
+        font-size: 15px;
+        line-height: 30px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .plasticProblem {
+        padding-bottom: 130px;
+    }
+
+    .Fact1, .Fact2 {
+        font-size: 40px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 12px;
+    }
+
+    .slogan {
+        font-size: 12px;
+    }
+
+    #greener {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #gbDescParagraph {
+        font-size: 10px;
+        line-height: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    #AboutUs {
+        display: inline-block;
+    }
+    
+    .plasticProblem, .housingProblem {
+        width: 100%;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .Fact1, .Fact2 {
+        font-size: 60px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 20px;
+    }
+
+    .slogan {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .plasticProblem, .housingProblem {
+        width: 100%;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .Fact1, .Fact2 {
+        font-size: 40px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 15px;
+    }
+
+    .slogan {
+        font-size: 8px;
+    }
+
+    #greener {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #gbDescParagraph {
+        font-size: 8px;
+        line-height: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .plasticProblem, .housingProblem {
+        width: 100%;
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+
+    .Fact1, .Fact2 {
+        font-size: 40px;
+    }
+    
+    .Fact1Desc, .Fact2Desc {
+        font-size: 10px;
+    }
+
+    .slogan {
+        font-size: 6px;
+    }
+
+    #greener {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #gbDescParagraph {
+        font-size: 5px;
+        line-height: 15px;
+        width: 90%;
+    }
+}
