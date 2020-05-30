@@ -59,7 +59,7 @@ class Footer extends React.Component {
                                         <p onClick={this.handleChange} value="team">Team</p>
                                     </div>
                                     <div id="footerContact">
-                                        <a id="footerContactChild" href="mailto:nknathankoo@gmail.com">Contact</a>
+                                        <a id="footerContactChild" href="mailto:GreenBricks.mnl@gmail.com">Contact</a>
                                     </div>
                                 </div>
                             </div>

@@ -10,7 +10,7 @@ function AboutUs() {
                 <div id="AboutUs">
                     <div className="plasticProblem">
                         <div className="Fact1"> 
-                            <CountUp start={0} end={90} delay={0}/>
+                            <CountUp start={0} end={90} duration={7} delay={0}/>
                             <p>%</p>
                         </div>
                         <div className="Fact1Desc">
@@ -19,7 +19,7 @@ function AboutUs() {
                     </div>
                     <div className="housingProblem">
                         <div className="Fact2"> 
-                            <CountUp start={0} end={1.6} decimals={1} duration={3}/>
+                            <CountUp start={0} end={1.6} decimals={1} duration={7}/>
                             <p id="billion">billion</p>
                         </div>
                         <div className="Fact2Desc">

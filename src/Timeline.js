@@ -83,7 +83,7 @@ function Timeline() {
                         <div className="august">
                             <div className='augustIconParent'>
                                 <div className="augustIcon">
-                                    <p id="augustDesc">Established relationship with first client</p>
+                                    <p id="augustDesc">Establish relationship with first client</p>
                                 </div>
                             </div>
                             <div>

@@ -34,7 +34,7 @@ class Toolbar extends React.Component {
                         <h1 onClick={this.changeHandler} value="team" id="teamLink">Team</h1>
                     </div>
                     <div id="contactTB">
-                        <a href="mailto:nknathankoo@gmail.com" id="email">Contact</a>
+                        <a href="mailto:GreenBricks.mnl@gmail.com" id="email">Contact</a>
                     </div>
                 </div>
             </div>
